@@ -22,11 +22,11 @@ Basic Python port of the Noexes client for poking the game's memory on a running
 
 Minimal library for reading AC:NH's binary CSV files.
 
-### specs.py
+### specs.py
 
 Auto-generated specifications (using build\_specs.py and the enumerations JSON) for the BCSV schema. Most names are missing right now...
 
-### dump\_all\_to\_html.py
+### dump\_all\_to\_html.py
 
 Outputs a batch of HTML files containing crude table views of all the BCSV files.
 
