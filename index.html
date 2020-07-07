@@ -5,6 +5,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Animal Crossing: New Horizons Save File Viewer</title>
 		<link rel="stylesheet" href="bundle.css">
+		<style>
+			blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+</style>
 	</head>
 	<body>
 		<div class='container'>
@@ -19,16 +30,20 @@
 			<div class='tab-content' id='mainTabContent'>
 				<div class='tab-pane fade show active' id='infoPane' role='tabpanel' aria-labelledby='infoTab'>
 					<br>
-					drag a <b>save file (main.dat)</b> and its associated <b>header (mainHeader.dat)</b> file onto the <b>Save File</b> text.
+					<h4>drag a <b>save file (main.dat)</b> and its associated <b>header (mainHeader.dat)</b> file onto the <b>Save File</b> text.</h4>
 					<br>
-					<br>
-					once loaded, click <b>Data Tree</b> to view the stuff
-					<br>
+					<h4>once loaded, click <b>Data Tree</b> to view the stuff</h4>
+<blockquote class="blockquote">
+    <p class="mb-0">if you wish, you can use <code>Debugging Tools</code> for <b>Raw Data</b></p>
+</blockquote>
 					<h4>You can view the following <code>Save File</code> versions.</h4>
-<li>1.0.0</li>
-<li>1.1.X</li>
-<li>1.2.X</li>
-<br>
+<blockquote class="blockquote">
+    <li>1.0.0</li>
+        <li>1.1.X</li>
+        <li>1.2.X</li>
+
+    
+</blockquote>
 <br>
 					<button type='button' class='btn btn-primary' id='saveBtn'>Save File</button>
 					<a class='btn btn-primary d-none' id='downloadBtn'>Download File</a>
