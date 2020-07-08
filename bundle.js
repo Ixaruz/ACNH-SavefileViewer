@@ -29335,7 +29335,7 @@ document.body.addEventListener('drop', e => {
     const link = document.getElementById('downloadBtn');
     if (link.href !== undefined)
         URL.revokeObjectURL(link.href);
-    link.download = 'rawData.bin';
+    link.download = 'main_decrypted.dat';
     link.href = url;
     link.classList.remove('d-none');
     loadAdvice('File exported, click Download');
