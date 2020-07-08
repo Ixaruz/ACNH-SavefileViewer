@@ -1,0 +1,49 @@
+blockquote {
+	margin: 0;
+}
+
+blockquote p {
+	padding: 15px;
+	background: #eee;
+	border-radius: 5px;
+}
+
+.container {
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+	padding: 15px;
+	border-radius: 1rem;
+	margin-top: 10px;
+	position: center
+}
+
+body {
+	background-color: #e9ecef;
+	/* padding: 4rem 2rem; */
+  
+	/* overflow: hidden; */
+	/* Hide scrollbars */
+}
+
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--text-color);
+}
+
+:root {
+	--bg-color: #fff;
+	--text-color: rgb(10, 10, 10);
+}
