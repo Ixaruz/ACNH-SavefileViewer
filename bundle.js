@@ -29338,10 +29338,20 @@ document.body.addEventListener('drop', e => {
     link.download = 'main_decrypted.dat';
     link.href = url;
     link.classList.remove('d-none');
-    loadAdvice('File exported, click Download');
+    loadAdvice('File DAT exported, click Download');
 });
-(_c = document.getElementById('importRawBtn')) === null || _c === void 0 ? void 0 : _c.addEventListener('click', () => {
-    rawImportFlag = true;
+(_b = document.getElementById('exportRawBin')) === null || _b === void 0 ? void 0 : _b.addEventListener('click', () => {
+    if (context === null)
+        return;
+    const blob = new Blob([context.data], { type: 'application/octet-stream' });
+    const url = URL.createObjectURL(blob);
+    const link = document.getElementById('downloadBtn');
+    if (link.href !== undefined)
+        URL.revokeObjectURL(link.href);
+    link.download = 'rawData.bin';
+    link.href = url;
+    link.classList.remove('d-none');
+    loadAdvice('File BIN exported, click Download');
 });
 
 },{"./app.css":9,"./crypto":10,"./data":11,"bootstrap":2,"jquery":7,"jquery.fancytree":4,"jquery.fancytree/dist/modules/jquery.fancytree.edit":3,"jquery.fancytree/dist/modules/jquery.fancytree.table":5}]},{},[12]);
