@@ -29345,7 +29345,7 @@ document.body.addEventListener('drop', e => {
         return;
     const blob = new Blob([context.data], { type: 'application/octet-stream' });
     const url = URL.createObjectURL(blob);
-    const link = document.getElementById('downloadBtn');
+    const link = document.getElementById('downloadBin');
     if (link.href !== undefined)
         URL.revokeObjectURL(link.href);
     link.download = 'rawData.bin';
