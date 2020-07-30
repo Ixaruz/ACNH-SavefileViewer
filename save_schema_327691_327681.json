@@ -40,7 +40,7 @@
         },
         "59745640": {
             "name": "::Game::SavePlayerOther",
-            "size": 221888,
+            "size": 255456,
             "alignment": 16,
             "fields": [
                 {
@@ -179,7 +179,7 @@
                     "id": 4202113289,
                     "name": "PostingReserveList",
                     "type": 655794742,
-                    "size": 38416,
+                    "size": 46768,
                     "offset": 123944,
                     "length": [
                         1,
@@ -192,7 +192,7 @@
                     "name": "_69144a57",
                     "type": 2892768039,
                     "size": 140,
-                    "offset": 162360,
+                    "offset": 170712,
                     "length": [
                         1,
                         1
@@ -204,7 +204,7 @@
                     "name": "_f209c449",
                     "type": 1978663468,
                     "size": 16,
-                    "offset": 162500,
+                    "offset": 170852,
                     "length": [
                         1,
                         1
@@ -216,7 +216,7 @@
                     "name": "FriendList",
                     "type": 1934452834,
                     "size": 46408,
-                    "offset": 162520,
+                    "offset": 170872,
                     "length": [
                         1,
                         1
@@ -228,7 +228,7 @@
                     "name": "Setting",
                     "type": 1525991266,
                     "size": 1,
-                    "offset": 208928,
+                    "offset": 217280,
                     "length": [
                         1,
                         1
@@ -240,7 +240,7 @@
                     "name": "Savings",
                     "type": 3626256309,
                     "size": 8,
-                    "offset": 208932,
+                    "offset": 217284,
                     "length": [
                         1,
                         1
@@ -252,7 +252,7 @@
                     "name": "BoxSell",
                     "type": 3626256309,
                     "size": 8,
-                    "offset": 208940,
+                    "offset": 217292,
                     "length": [
                         1,
                         1
@@ -264,7 +264,7 @@
                     "name": "CraftingRecipeCollect",
                     "type": 1368937620,
                     "size": 5120,
-                    "offset": 208948,
+                    "offset": 217300,
                     "length": [
                         1,
                         1
@@ -276,7 +276,7 @@
                     "name": "MoveOutBoxMoney",
                     "type": 2154634368,
                     "size": 4,
-                    "offset": 214068,
+                    "offset": 222420,
                     "length": [
                         1,
                         1
@@ -288,7 +288,7 @@
                     "name": "NetPlayerID",
                     "type": 3124979414,
                     "size": 88,
-                    "offset": 214072,
+                    "offset": 222424,
                     "length": [
                         1,
                         1
@@ -300,7 +300,7 @@
                     "name": "NetMailBox",
                     "type": 4097730245,
                     "size": 1632,
-                    "offset": 214160,
+                    "offset": 222512,
                     "length": [
                         1,
                         1
@@ -311,8 +311,8 @@
                     "id": 1232094484,
                     "name": "VisitorInfo",
                     "type": 4127097303,
-                    "size": 136,
-                    "offset": 215792,
+                    "size": 144,
+                    "offset": 224144,
                     "length": [
                         1,
                         1
@@ -324,7 +324,7 @@
                     "name": "AudioRegister",
                     "type": 4099543024,
                     "size": 32,
-                    "offset": 215928,
+                    "offset": 224288,
                     "length": [
                         1,
                         1
@@ -336,7 +336,7 @@
                     "name": "RegionLanguageID",
                     "type": 2043697583,
                     "size": 4,
-                    "offset": 215960,
+                    "offset": 224320,
                     "length": [
                         1,
                         1
@@ -348,7 +348,7 @@
                     "name": "PlayReportInfo",
                     "type": 3086930019,
                     "size": 3344,
-                    "offset": 215968,
+                    "offset": 224328,
                     "length": [
                         1,
                         1
@@ -360,7 +360,7 @@
                     "name": "FishCollection",
                     "type": 3829678083,
                     "size": 214,
-                    "offset": 219312,
+                    "offset": 227672,
                     "length": [
                         1,
                         1
@@ -372,7 +372,7 @@
                     "name": "InsectCollection",
                     "type": 3684638863,
                     "size": 214,
-                    "offset": 219526,
+                    "offset": 227886,
                     "length": [
                         1,
                         1
@@ -384,7 +384,7 @@
                     "name": "DiveFishCollection",
                     "type": 179629737,
                     "size": 130,
-                    "offset": 219740,
+                    "offset": 228100,
                     "length": [
                         1,
                         1
@@ -396,7 +396,7 @@
                     "name": "ReceivedAoC",
                     "type": 742004188,
                     "size": 260,
-                    "offset": 219872,
+                    "offset": 228232,
                     "length": [
                         1,
                         1
@@ -408,7 +408,7 @@
                     "name": "ReceivedBCAT",
                     "type": 2976068050,
                     "size": 516,
-                    "offset": 220132,
+                    "offset": 228492,
                     "length": [
                         1,
                         1
@@ -420,7 +420,7 @@
                     "name": "KabuBuy",
                     "type": 3626256309,
                     "size": 8,
-                    "offset": 220648,
+                    "offset": 229008,
                     "length": [
                         1,
                         1
@@ -432,7 +432,7 @@
                     "name": "KabuSell",
                     "type": 3626256309,
                     "size": 8,
-                    "offset": 220656,
+                    "offset": 229016,
                     "length": [
                         1,
                         1
@@ -444,7 +444,7 @@
                     "name": "PreviousLandId",
                     "type": 3900059793,
                     "size": 28,
-                    "offset": 220664,
+                    "offset": 229024,
                     "length": [
                         1,
                         1
@@ -456,7 +456,7 @@
                     "name": "Amiibo",
                     "type": 1932217096,
                     "size": 160,
-                    "offset": 220692,
+                    "offset": 229052,
                     "length": [
                         1,
                         1
@@ -468,7 +468,7 @@
                     "name": "RemakeCommonPattern",
                     "type": 3992834411,
                     "size": 16,
-                    "offset": 220852,
+                    "offset": 229212,
                     "length": [
                         1,
                         1
@@ -480,7 +480,7 @@
                     "name": "BoxTransfer",
                     "type": 3626256309,
                     "size": 8,
-                    "offset": 220868,
+                    "offset": 229228,
                     "length": [
                         1,
                         1
@@ -492,7 +492,7 @@
                     "name": "_075e237a",
                     "type": 271399315,
                     "size": 4,
-                    "offset": 220876,
+                    "offset": 229236,
                     "length": [
                         1,
                         1
@@ -504,7 +504,7 @@
                     "name": "ClockTimeList",
                     "type": 1949101888,
                     "size": 384,
-                    "offset": 220880,
+                    "offset": 229240,
                     "length": [
                         1,
                         1
@@ -516,7 +516,7 @@
                     "name": "HashList",
                     "type": 2314213952,
                     "size": 64,
-                    "offset": 221264,
+                    "offset": 229624,
                     "length": [
                         1,
                         1
@@ -528,7 +528,7 @@
                     "name": "EventFlagPlayerTemp",
                     "type": 3991565002,
                     "size": 256,
-                    "offset": 221328,
+                    "offset": 229688,
                     "length": [
                         1,
                         1
@@ -540,7 +540,7 @@
                     "name": "EventFlagPlayerVisit",
                     "type": 2979688477,
                     "size": 256,
-                    "offset": 221584,
+                    "offset": 229944,
                     "length": [
                         1,
                         1
@@ -552,7 +552,7 @@
                     "name": "DeviceId",
                     "type": 3377782559,
                     "size": 16,
-                    "offset": 221840,
+                    "offset": 230200,
                     "length": [
                         1,
                         1
@@ -564,12 +564,48 @@
                     "name": "MailUserLog",
                     "type": 554265853,
                     "size": 20,
-                    "offset": 221856,
+                    "offset": 230216,
                     "length": [
                         1,
                         1
                     ],
                     "alignment": 2
+                },
+                {
+                    "id": 3153795596,
+                    "name": "_bbfb1a0c",
+                    "type": 2154634368,
+                    "size": 4,
+                    "offset": 230236,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 2
+                },
+                {
+                    "id": 2646067028,
+                    "name": "FoxTotalBuy",
+                    "type": 3626256309,
+                    "size": 8,
+                    "offset": 230240,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 2350549960,
+                    "name": "_8c1a8bc8",
+                    "type": 3812197642,
+                    "size": 25200,
+                    "offset": 230248,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 8
                 }
             ]
         },
@@ -737,6 +773,73 @@
                         1
                     ],
                     "alignment": 4
+                }
+            ]
+        },
+        "222380052": {
+            "name": "::Game::SavePostingReserveCommune",
+            "size": 696,
+            "alignment": 4,
+            "fields": [
+                {
+                    "id": 433403090,
+                    "name": "ReserveBase",
+                    "type": 3386574054,
+                    "size": 688,
+                    "offset": 0,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 2945998504,
+                    "name": "ReserveType",
+                    "type": 1700537250,
+                    "size": 1,
+                    "offset": 688,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 1
+                },
+                {
+                    "id": 4108957893,
+                    "name": "FromType",
+                    "type": 1700537250,
+                    "size": 1,
+                    "offset": 689,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 1
+                },
+                {
+                    "id": 1508782611,
+                    "name": "FromNpcId",
+                    "type": 322562356,
+                    "size": 3,
+                    "offset": 690,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 1
+                },
+                {
+                    "id": 4276277229,
+                    "name": "FromSystemId",
+                    "type": 1700537250,
+                    "size": 1,
+                    "offset": 693,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 1
                 }
             ]
         },
@@ -977,6 +1080,37 @@
                 }
             ]
         },
+        "386928239": {
+            "name": "s_17100e6f",
+            "size": 25200,
+            "alignment": 8,
+            "fields": [
+                {
+                    "id": 751743028,
+                    "name": "Buffer",
+                    "type": 3313296852,
+                    "size": 248,
+                    "offset": 0,
+                    "length": [
+                        100,
+                        1
+                    ],
+                    "alignment": 8
+                },
+                {
+                    "id": 671339009,
+                    "name": "IndexTable",
+                    "type": 2260638386,
+                    "size": 4,
+                    "offset": 24800,
+                    "length": [
+                        100,
+                        1
+                    ],
+                    "alignment": 4
+                }
+            ]
+        },
         "488622213": {
             "name": "::Game::SaveWordCoordinateName",
             "size": 96,
@@ -1136,7 +1270,7 @@
         },
         "655794742": {
             "name": "::Game::SavePostingReserveList",
-            "size": 38416,
+            "size": 46768,
             "alignment": 4,
             "fields": [
                 {
@@ -1170,7 +1304,7 @@
                     "size": 696,
                     "offset": 31832,
                     "length": [
-                        4,
+                        8,
                         1
                     ],
                     "alignment": 4
@@ -1180,7 +1314,7 @@
                     "name": "ListMilage",
                     "type": 137935155,
                     "size": 16,
-                    "offset": 34616,
+                    "offset": 37400,
                     "length": [
                         5,
                         1
@@ -1192,9 +1326,21 @@
                     "name": "ListCatalog",
                     "type": 1790210370,
                     "size": 744,
-                    "offset": 34696,
+                    "offset": 37480,
                     "length": [
                         5,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 2042258110,
+                    "name": "ListCommune",
+                    "type": 222380052,
+                    "size": 696,
+                    "offset": 41200,
+                    "length": [
+                        8,
                         1
                     ],
                     "alignment": 4
@@ -1387,7 +1533,7 @@
         },
         "812058841": {
             "name": "::Game::SaveLifeSupport",
-            "size": 21672,
+            "size": 22188,
             "alignment": 4,
             "fields": [
                 {
@@ -1588,6 +1734,30 @@
                     "type": 3966101428,
                     "size": 8,
                     "offset": 21664,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 2595813204,
+                    "name": "BonusVDaily",
+                    "type": 2412827210,
+                    "size": 1,
+                    "offset": 21672,
+                    "length": [
+                        512,
+                        1
+                    ],
+                    "alignment": 1
+                },
+                {
+                    "id": 2140141723,
+                    "name": "ChangedFirstFivePoint",
+                    "type": 2260638386,
+                    "size": 4,
+                    "offset": 22184,
                     "length": [
                         1,
                         1
@@ -1875,7 +2045,7 @@
         },
         "1256749981": {
             "name": "::Game::SavePersonal",
-            "size": 442064,
+            "size": 476192,
             "alignment": 16,
             "fields": [
                 {
@@ -1906,7 +2076,7 @@
                     "id": 145979025,
                     "name": "Player",
                     "type": 1833277724,
-                    "size": 219904,
+                    "size": 220464,
                     "offset": 272,
                     "length": [
                         1,
@@ -1918,8 +2088,8 @@
                     "id": 1758168160,
                     "name": "PlayerOther",
                     "type": 59745640,
-                    "size": 221888,
-                    "offset": 220176,
+                    "size": 255456,
+                    "offset": 220736,
                     "length": [
                         1,
                         1
@@ -2587,7 +2757,7 @@
         },
         "1833277724": {
             "name": "::Game::SavePlayer",
-            "size": 219904,
+            "size": 220464,
             "alignment": 16,
             "fields": [
                 {
@@ -2654,7 +2824,7 @@
                     "id": 1303440018,
                     "name": "LifeSupport",
                     "type": 812058841,
-                    "size": 21672,
+                    "size": 22188,
                     "offset": 49120,
                     "length": [
                         1,
@@ -2667,7 +2837,7 @@
                     "name": "BirthDay",
                     "type": 3621979107,
                     "size": 2,
-                    "offset": 70792,
+                    "offset": 71308,
                     "length": [
                         1,
                         1
@@ -2679,7 +2849,7 @@
                     "name": "PastDaysFromMade",
                     "type": 1258445657,
                     "size": 2,
-                    "offset": 70794,
+                    "offset": 71310,
                     "length": [
                         1,
                         1
@@ -2691,7 +2861,7 @@
                     "name": "NetProfile",
                     "type": 3826256258,
                     "size": 8,
-                    "offset": 70800,
+                    "offset": 71312,
                     "length": [
                         1,
                         1
@@ -2703,7 +2873,7 @@
                     "name": "ProfileMain",
                     "type": 3421800682,
                     "size": 144592,
-                    "offset": 70816,
+                    "offset": 71328,
                     "length": [
                         1,
                         1
@@ -2715,7 +2885,7 @@
                     "name": "_5d1fcb04",
                     "type": 1700537250,
                     "size": 1,
-                    "offset": 215408,
+                    "offset": 215920,
                     "length": [
                         4,
                         1
@@ -2727,7 +2897,7 @@
                     "name": "LastPlayDate",
                     "type": 2154634368,
                     "size": 4,
-                    "offset": 215412,
+                    "offset": 215924,
                     "length": [
                         1,
                         1
@@ -2739,7 +2909,7 @@
                     "name": "LastBirthdayYear",
                     "type": 3680203393,
                     "size": 2,
-                    "offset": 215416,
+                    "offset": 215928,
                     "length": [
                         1,
                         1
@@ -2751,7 +2921,7 @@
                     "name": "BirthdayLiveDate",
                     "type": 2154634368,
                     "size": 4,
-                    "offset": 215418,
+                    "offset": 215930,
                     "length": [
                         1,
                         1
@@ -2763,12 +2933,36 @@
                     "name": "BirthdayLiveMsgList",
                     "type": 1276619181,
                     "size": 4480,
-                    "offset": 215424,
+                    "offset": 215936,
                     "length": [
                         1,
                         1
                     ],
                     "alignment": 8
+                },
+                {
+                    "id": 568882532,
+                    "name": "GalleryItem",
+                    "type": 1106985317,
+                    "size": 8,
+                    "offset": 220416,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 728377816,
+                    "name": "GalleryLandId",
+                    "type": 3900059793,
+                    "size": 28,
+                    "offset": 220424,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
                 }
             ]
         },
@@ -4165,6 +4359,116 @@
                 }
             ]
         },
+        "3313296852": {
+            "name": "s_c57ce5d4",
+            "size": 248,
+            "alignment": 8,
+            "fields": [
+                {
+                    "id": 288602426,
+                    "name": "HomeAddress",
+                    "type": 3322328799,
+                    "size": 48,
+                    "offset": 0,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 8
+                },
+                {
+                    "id": 3543942441,
+                    "name": "DesignerID",
+                    "type": 286355278,
+                    "size": 8,
+                    "offset": 48,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 8
+                },
+                {
+                    "id": 3870179153,
+                    "name": "PlayerId",
+                    "type": 786465822,
+                    "size": 56,
+                    "offset": 56,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 2540299795,
+                    "name": "TimeStamp",
+                    "type": 3168277518,
+                    "size": 8,
+                    "offset": 112,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 2
+                },
+                {
+                    "id": 374375875,
+                    "name": "_165085c3",
+                    "type": 1700537250,
+                    "size": 1,
+                    "offset": 120,
+                    "length": [
+                        128,
+                        1
+                    ],
+                    "alignment": 1
+                }
+            ]
+        },
+        "3322328799": {
+            "name": "::Game::SaveNetHomeAddress",
+            "size": 48,
+            "alignment": 8,
+            "fields": [
+                {
+                    "id": 3112178849,
+                    "name": "PopId",
+                    "type": 2832377044,
+                    "size": 8,
+                    "offset": 0,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 8
+                },
+                {
+                    "id": 1115650652,
+                    "name": "PolId",
+                    "type": 2938107850,
+                    "size": 8,
+                    "offset": 8,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 8
+                },
+                {
+                    "id": 620532440,
+                    "name": "IslandId",
+                    "type": 3900059793,
+                    "size": 28,
+                    "offset": 16,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                }
+            ]
+        },
         "3349771197": {
             "name": "::Game::SavePlayerHandleName",
             "size": 10,
@@ -4997,6 +5301,25 @@
                 }
             ]
         },
+        "3812197642": {
+            "name": "s_e339850a",
+            "size": 25200,
+            "alignment": 8,
+            "fields": [
+                {
+                    "id": 2350549960,
+                    "name": "_8c1a8bc8",
+                    "type": 386928239,
+                    "size": 25200,
+                    "offset": 0,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 8
+                }
+            ]
+        },
         "3826256258": {
             "name": "::Game::SaveNetPlayerProfile",
             "size": 8,
@@ -5589,7 +5912,7 @@
         },
         "4127097303": {
             "name": "::Game::SavePlayerVisitorNpc",
-            "size": 136,
+            "size": 144,
             "alignment": 8,
             "fields": [
                 {
@@ -5694,6 +6017,18 @@
                     "type": 1106985317,
                     "size": 8,
                     "offset": 124,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 1882787897,
+                    "name": "GulBRewardItem",
+                    "type": 1106985317,
+                    "size": 8,
+                    "offset": 132,
                     "length": [
                         1,
                         1
@@ -5955,7 +6290,7 @@
         },
         "399022397": {
             "name": "::Game::SavePhotoStudioHouse",
-            "size": 156336,
+            "size": 182448,
             "alignment": 4,
             "fields": [
                 {
@@ -5969,12 +6304,91 @@
                         1
                     ],
                     "alignment": 4
+                },
+                {
+                    "id": 3421203900,
+                    "name": "JuneBrideRoom",
+                    "type": 3840306413,
+                    "size": 26056,
+                    "offset": 156336,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 888893619,
+                    "name": "JuneBrideSnpcList",
+                    "type": 3074137373,
+                    "size": 16,
+                    "offset": 182392,
+                    "length": [
+                        2,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 1561372098,
+                    "name": "JuneBrideRoomExtra",
+                    "type": 595185056,
+                    "size": 24,
+                    "offset": 182424,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                }
+            ]
+        },
+        "595185056": {
+            "name": "::Game::SaveJuneBrideRoomExtra",
+            "size": 24,
+            "alignment": 4,
+            "fields": [
+                {
+                    "id": 1695207834,
+                    "name": "DefaultWallItem",
+                    "type": 1106985317,
+                    "size": 8,
+                    "offset": 0,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 3866114041,
+                    "name": "DefaultFloorItem",
+                    "type": 1106985317,
+                    "size": 8,
+                    "offset": 8,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 3170711295,
+                    "name": "DefaultRugItem",
+                    "type": 1106985317,
+                    "size": 8,
+                    "offset": 16,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
                 }
             ]
         },
         "1796325573": {
             "name": "::Game::SavePhotoStudioIsland",
-            "size": 156608,
+            "size": 182720,
             "alignment": 16,
             "fields": [
                 {
@@ -6005,7 +6419,7 @@
                     "id": 3915854547,
                     "name": "PhotoStudioHouse",
                     "type": 399022397,
-                    "size": 156336,
+                    "size": 182448,
                     "offset": 272,
                     "length": [
                         1,
@@ -6055,6 +6469,73 @@
                         1
                     ],
                     "alignment": 1
+                }
+            ]
+        },
+        "3074137373": {
+            "name": "::Game::SaveJuneBrideSNpc",
+            "size": 16,
+            "alignment": 4,
+            "fields": [
+                {
+                    "id": 3782560005,
+                    "name": "IsValid",
+                    "type": 2412827210,
+                    "size": 1,
+                    "offset": 0,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 1
+                },
+                {
+                    "id": 552407141,
+                    "name": "NpcPosture",
+                    "type": 1700537250,
+                    "size": 1,
+                    "offset": 1,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 1
+                },
+                {
+                    "id": 221012334,
+                    "name": "Reaction",
+                    "type": 1700537250,
+                    "size": 1,
+                    "offset": 2,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 1
+                },
+                {
+                    "id": 1810443801,
+                    "name": "AngleY",
+                    "type": 2391922858,
+                    "size": 1,
+                    "offset": 3,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 1
+                },
+                {
+                    "id": 2430391429,
+                    "name": "Pos",
+                    "type": 3899691843,
+                    "size": 12,
+                    "offset": 4,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
                 }
             ]
         },
@@ -6237,16 +6718,83 @@
                 }
             ]
         },
+        "64766081": {
+            "name": "::Game::SaveShopGallery",
+            "size": 428,
+            "alignment": 4,
+            "fields": [
+                {
+                    "id": 3283939954,
+                    "name": "ShopItem",
+                    "type": 1106985317,
+                    "size": 8,
+                    "offset": 0,
+                    "length": [
+                        6,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 586202428,
+                    "name": "SoldOut",
+                    "type": 2412827210,
+                    "size": 1,
+                    "offset": 48,
+                    "length": [
+                        6,
+                        1
+                    ],
+                    "alignment": 1
+                },
+                {
+                    "id": 3870179153,
+                    "name": "PlayerId",
+                    "type": 786465822,
+                    "size": 56,
+                    "offset": 56,
+                    "length": [
+                        6,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 2070104421,
+                    "name": "VisitItem",
+                    "type": 1106985317,
+                    "size": 8,
+                    "offset": 392,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 1562364676,
+                    "name": "_5d1fcb04",
+                    "type": 1700537250,
+                    "size": 1,
+                    "offset": 400,
+                    "length": [
+                        28,
+                        1
+                    ],
+                    "alignment": 1
+                }
+            ]
+        },
         "72153138": {
             "name": "::Game::SaveLandOther",
-            "size": 6062112,
+            "size": 6334960,
             "alignment": 16,
             "fields": [
                 {
                     "id": 378516564,
                     "name": "GuestPlayers",
                     "type": 1256749981,
-                    "size": 442064,
+                    "size": 476192,
                     "offset": 0,
                     "length": [
                         8,
@@ -6259,7 +6807,7 @@
                     "name": "_d35a9251",
                     "type": 2069900089,
                     "size": 16,
-                    "offset": 3536512,
+                    "offset": 3809536,
                     "length": [
                         1,
                         1
@@ -6271,7 +6819,7 @@
                     "name": "Fg",
                     "type": 2580897401,
                     "size": 1020,
-                    "offset": 3536528,
+                    "offset": 3809552,
                     "length": [
                         1,
                         1
@@ -6283,7 +6831,7 @@
                     "name": "PostStock",
                     "type": 4161479371,
                     "size": 2503632,
-                    "offset": 3537552,
+                    "offset": 3810576,
                     "length": [
                         1,
                         1
@@ -6295,7 +6843,7 @@
                     "name": "ShopOther",
                     "type": 230696594,
                     "size": 12,
-                    "offset": 6041184,
+                    "offset": 6314208,
                     "length": [
                         1,
                         1
@@ -6307,7 +6855,7 @@
                     "name": "PlayReportInfo",
                     "type": 256420548,
                     "size": 1152,
-                    "offset": 6041200,
+                    "offset": 6314224,
                     "length": [
                         1,
                         1
@@ -6319,7 +6867,7 @@
                     "name": "DebugLog",
                     "type": 231758007,
                     "size": 256,
-                    "offset": 6042352,
+                    "offset": 6315376,
                     "length": [
                         1,
                         1
@@ -6331,7 +6879,7 @@
                     "name": "LostItemBox",
                     "type": 2593134277,
                     "size": 640,
-                    "offset": 6042608,
+                    "offset": 6315632,
                     "length": [
                         1,
                         1
@@ -6343,7 +6891,7 @@
                     "name": "NetLandID",
                     "type": 2777679080,
                     "size": 128,
-                    "offset": 6043248,
+                    "offset": 6316272,
                     "length": [
                         1,
                         1
@@ -6355,7 +6903,7 @@
                     "name": "CurrentPlayerActivity",
                     "type": 2614242576,
                     "size": 216,
-                    "offset": 6043376,
+                    "offset": 6316400,
                     "length": [
                         8,
                         1
@@ -6367,7 +6915,7 @@
                     "name": "PreviousPlayerActivity",
                     "type": 2614242576,
                     "size": 216,
-                    "offset": 6045104,
+                    "offset": 6318128,
                     "length": [
                         8,
                         1
@@ -6379,7 +6927,7 @@
                     "name": "VisitorPlayerActivityPack",
                     "type": 2305898000,
                     "size": 1728,
-                    "offset": 6046832,
+                    "offset": 6319856,
                     "length": [
                         8,
                         1
@@ -6387,23 +6935,11 @@
                     "alignment": 8
                 },
                 {
-                    "id": 2104909851,
-                    "name": "SettlerQuest",
-                    "type": 905299694,
-                    "size": 192,
-                    "offset": 6060656,
-                    "length": [
-                        1,
-                        1
-                    ],
-                    "alignment": 4
-                },
-                {
                     "id": 3536312836,
                     "name": "MyDesignHolderList",
                     "type": 4036347873,
                     "size": 100,
-                    "offset": 6060848,
+                    "offset": 6333680,
                     "length": [
                         1,
                         1
@@ -6415,7 +6951,7 @@
                     "name": "GrowUpRandomFactor",
                     "type": 1172470732,
                     "size": 4,
-                    "offset": 6060948,
+                    "offset": 6333780,
                     "length": [
                         1,
                         1
@@ -6427,7 +6963,7 @@
                     "name": "TourWeather",
                     "type": 691047395,
                     "size": 332,
-                    "offset": 6060952,
+                    "offset": 6333784,
                     "length": [
                         1,
                         1
@@ -6439,7 +6975,7 @@
                     "name": "MyDesignListOrder",
                     "type": 4215471971,
                     "size": 100,
-                    "offset": 6061284,
+                    "offset": 6334116,
                     "length": [
                         1,
                         1
@@ -6451,7 +6987,7 @@
                     "name": "LastSaveTime",
                     "type": 3168277518,
                     "size": 8,
-                    "offset": 6061384,
+                    "offset": 6334216,
                     "length": [
                         1,
                         1
@@ -6463,7 +6999,7 @@
                     "name": "MoveKitPlayer",
                     "type": 2260638386,
                     "size": 4,
-                    "offset": 6061392,
+                    "offset": 6334224,
                     "length": [
                         1,
                         1
@@ -6475,7 +7011,7 @@
                     "name": "MoveKitNpc",
                     "type": 2260638386,
                     "size": 4,
-                    "offset": 6061396,
+                    "offset": 6334228,
                     "length": [
                         1,
                         1
@@ -6487,7 +7023,7 @@
                     "name": "HashList",
                     "type": 2314213952,
                     "size": 64,
-                    "offset": 6061400,
+                    "offset": 6334232,
                     "length": [
                         1,
                         1
@@ -6499,12 +7035,24 @@
                     "name": "EventData",
                     "type": 3624805561,
                     "size": 640,
-                    "offset": 6061464,
+                    "offset": 6334296,
                     "length": [
                         1,
                         1
                     ],
                     "alignment": 4
+                },
+                {
+                    "id": 2244731716,
+                    "name": "BackupService",
+                    "type": 3674210176,
+                    "size": 16,
+                    "offset": 6334936,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 8
                 }
             ]
         },
@@ -9471,7 +10019,7 @@
         },
         "1885189407": {
             "name": "::Game::SaveLand",
-            "size": 5220720,
+            "size": 5221520,
             "alignment": 16,
             "fields": [
                 {
@@ -9622,7 +10170,7 @@
                     "id": 3069060397,
                     "name": "Shop",
                     "type": 2922577538,
-                    "size": 11672,
+                    "size": 12356,
                     "offset": 4256896,
                     "length": [
                         1,
@@ -9635,7 +10183,7 @@
                     "name": "Museum",
                     "type": 1128319933,
                     "size": 13316,
-                    "offset": 4268568,
+                    "offset": 4269252,
                     "length": [
                         1,
                         1
@@ -9647,7 +10195,7 @@
                     "name": "VisitorNpc",
                     "type": 3710005767,
                     "size": 120,
-                    "offset": 4281884,
+                    "offset": 4282568,
                     "length": [
                         1,
                         1
@@ -9659,7 +10207,7 @@
                     "name": "SnowManFamily",
                     "type": 1467779857,
                     "size": 440,
-                    "offset": 4282004,
+                    "offset": 4282688,
                     "length": [
                         1,
                         1
@@ -9671,7 +10219,7 @@
                     "name": "Fg",
                     "type": 3978720757,
                     "size": 2344,
-                    "offset": 4282444,
+                    "offset": 4283128,
                     "length": [
                         1,
                         1
@@ -9683,7 +10231,7 @@
                     "name": "ItemMarketingRoute",
                     "type": 1028533808,
                     "size": 2,
-                    "offset": 4284788,
+                    "offset": 4285472,
                     "length": [
                         1,
                         1
@@ -9695,7 +10243,7 @@
                     "name": "VillageMelody",
                     "type": 3905582670,
                     "size": 16,
-                    "offset": 4284792,
+                    "offset": 4285480,
                     "length": [
                         1,
                         1
@@ -9707,7 +10255,7 @@
                     "name": "Office",
                     "type": 2621312627,
                     "size": 4,
-                    "offset": 4284808,
+                    "offset": 4285496,
                     "length": [
                         1,
                         1
@@ -9719,7 +10267,7 @@
                     "name": "BulletinBoard",
                     "type": 2157884215,
                     "size": 920296,
-                    "offset": 4284816,
+                    "offset": 4285504,
                     "length": [
                         1,
                         1
@@ -9731,7 +10279,7 @@
                     "name": "RegionLanguage",
                     "type": 2969432008,
                     "size": 4,
-                    "offset": 5205112,
+                    "offset": 5205800,
                     "length": [
                         1,
                         1
@@ -9743,7 +10291,7 @@
                     "name": "CalendarEventRegion",
                     "type": 1975450241,
                     "size": 4,
-                    "offset": 5205116,
+                    "offset": 5205804,
                     "length": [
                         1,
                         1
@@ -9755,7 +10303,7 @@
                     "name": "CampSite",
                     "type": 869126157,
                     "size": 4,
-                    "offset": 5205120,
+                    "offset": 5205808,
                     "length": [
                         1,
                         1
@@ -9767,7 +10315,7 @@
                     "name": "NpcCamp",
                     "type": 2109524575,
                     "size": 276,
-                    "offset": 5205124,
+                    "offset": 5205812,
                     "length": [
                         1,
                         1
@@ -9779,7 +10327,7 @@
                     "name": "AirportThemeColor",
                     "type": 1700537250,
                     "size": 1,
-                    "offset": 5205400,
+                    "offset": 5206088,
                     "length": [
                         1,
                         1
@@ -9791,7 +10339,7 @@
                     "name": "RumorFavorite",
                     "type": 3230771598,
                     "size": 9504,
-                    "offset": 5205402,
+                    "offset": 5206090,
                     "length": [
                         1,
                         1
@@ -9803,7 +10351,7 @@
                     "name": "PublicWorksLoan",
                     "type": 3626256309,
                     "size": 8,
-                    "offset": 5214908,
+                    "offset": 5215596,
                     "length": [
                         1,
                         1
@@ -9815,7 +10363,7 @@
                     "name": "PublicWorksName",
                     "type": 1106985317,
                     "size": 8,
-                    "offset": 5214916,
+                    "offset": 5215604,
                     "length": [
                         1,
                         1
@@ -9827,7 +10375,7 @@
                     "name": "VillageScore",
                     "type": 3125670035,
                     "size": 592,
-                    "offset": 5214924,
+                    "offset": 5215612,
                     "length": [
                         1,
                         1
@@ -9838,8 +10386,8 @@
                     "id": 2189477897,
                     "name": "NetLandProfile",
                     "type": 3695756247,
-                    "size": 8,
-                    "offset": 5215520,
+                    "size": 88,
+                    "offset": 5216208,
                     "length": [
                         1,
                         1
@@ -9851,7 +10399,7 @@
                     "name": "EventFlagTemp",
                     "type": 3925628661,
                     "size": 256,
-                    "offset": 5215528,
+                    "offset": 5216296,
                     "length": [
                         1,
                         1
@@ -9859,13 +10407,37 @@
                     "alignment": 2
                 },
                 {
+                    "id": 548700112,
+                    "name": "MyDesignFireworks",
+                    "type": 2864560021,
+                    "size": 20,
+                    "offset": 5216552,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 2
+                },
+                {
+                    "id": 2104909851,
+                    "name": "SettlerQuest",
+                    "type": 905299694,
+                    "size": 192,
+                    "offset": 5216572,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
                     "id": 1562364676,
                     "name": "_5d1fcb04",
                     "type": 1700537250,
                     "size": 1,
-                    "offset": 5215784,
+                    "offset": 5216764,
                     "length": [
-                        4934,
+                        4742,
                         1
                     ],
                     "alignment": 1
@@ -11126,9 +11698,28 @@
                 }
             ]
         },
+        "2864560021": {
+            "name": "::Game::SaveMyDesignFireworks",
+            "size": 20,
+            "alignment": 2,
+            "fields": [
+                {
+                    "id": 327992672,
+                    "name": "MyDesignIds",
+                    "type": 175868289,
+                    "size": 2,
+                    "offset": 0,
+                    "length": [
+                        10,
+                        1
+                    ],
+                    "alignment": 2
+                }
+            ]
+        },
         "2922577538": {
             "name": "::Game::SaveShop",
-            "size": 11672,
+            "size": 12356,
             "alignment": 4,
             "fields": [
                 {
@@ -11235,6 +11826,30 @@
                     "offset": 11544,
                     "length": [
                         16,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 4036746116,
+                    "name": "ShopGardening",
+                    "type": 3866015515,
+                    "size": 256,
+                    "offset": 11672,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 4
+                },
+                {
+                    "id": 3599081025,
+                    "name": "ShopGallery",
+                    "type": 64766081,
+                    "size": 428,
+                    "offset": 11928,
+                    "length": [
+                        1,
                         1
                     ],
                     "alignment": 4
@@ -11355,7 +11970,7 @@
         },
         "3052288880": {
             "name": "::Game::SaveMain",
-            "size": 11283104,
+            "size": 11556752,
             "alignment": 16,
             "fields": [
                 {
@@ -11386,7 +12001,7 @@
                     "id": 2657708276,
                     "name": "Land",
                     "type": 1885189407,
-                    "size": 5220720,
+                    "size": 5221520,
                     "offset": 272,
                     "length": [
                         1,
@@ -11398,8 +12013,8 @@
                     "id": 3527296816,
                     "name": "LandOther",
                     "type": 72153138,
-                    "size": 6062112,
-                    "offset": 5220992,
+                    "size": 6334960,
+                    "offset": 5221792,
                     "length": [
                         1,
                         1
@@ -12221,9 +12836,40 @@
                 }
             ]
         },
+        "3674210176": {
+            "name": "::Game::SaveBackupService",
+            "size": 16,
+            "alignment": 8,
+            "fields": [
+                {
+                    "id": 3280330639,
+                    "name": "NsaId",
+                    "type": 17472036,
+                    "size": 8,
+                    "offset": 0,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 8
+                },
+                {
+                    "id": 4134693459,
+                    "name": "BackupAgent",
+                    "type": 2391922858,
+                    "size": 1,
+                    "offset": 8,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 1
+                }
+            ]
+        },
         "3695756247": {
             "name": "::Game::SaveNetLandProfile",
-            "size": 8,
+            "size": 88,
             "alignment": 8,
             "fields": [
                 {
@@ -12237,6 +12883,78 @@
                         1
                     ],
                     "alignment": 8
+                },
+                {
+                    "id": 4159744310,
+                    "name": "ProfileReportInfo",
+                    "type": 3591412142,
+                    "size": 40,
+                    "offset": 8,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 8
+                },
+                {
+                    "id": 139155522,
+                    "name": "LanguageCode",
+                    "type": 3272785099,
+                    "size": 8,
+                    "offset": 48,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 1
+                },
+                {
+                    "id": 178659979,
+                    "name": "_0aa6228b",
+                    "type": 2832377044,
+                    "size": 8,
+                    "offset": 56,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 8
+                },
+                {
+                    "id": 3200103340,
+                    "name": "_bebdb3ac",
+                    "type": 3168277518,
+                    "size": 8,
+                    "offset": 64,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 2
+                },
+                {
+                    "id": 788037194,
+                    "name": "FirstDreamTime",
+                    "type": 3168277518,
+                    "size": 8,
+                    "offset": 72,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 2
+                },
+                {
+                    "id": 4252817937,
+                    "name": "_fd7cda11",
+                    "type": 2391922858,
+                    "size": 1,
+                    "offset": 80,
+                    "length": [
+                        1,
+                        1
+                    ],
+                    "alignment": 1
                 }
             ]
         },
@@ -12521,6 +13239,25 @@
                     "offset": 0,
                     "length": [
                         1,
+                        1
+                    ],
+                    "alignment": 4
+                }
+            ]
+        },
+        "3866015515": {
+            "name": "::Game::SaveShopGardening",
+            "size": 256,
+            "alignment": 4,
+            "fields": [
+                {
+                    "id": 3283939954,
+                    "name": "ShopItem",
+                    "type": 1106985317,
+                    "size": 8,
+                    "offset": 0,
+                    "length": [
+                        32,
                         1
                     ],
                     "alignment": 4
@@ -13298,6 +14035,10 @@
             "name": "_14a85dac",
             "size": 8
         },
+        "322562356": {
+            "name": "Game::NpcNormalID",
+            "size": 3
+        },
         "3990860246": {
             "name": "_eddfb1d6",
             "size": 8
@@ -13374,10 +14115,6 @@
             "name": "_e0b64e79",
             "size": 88
         },
-        "322562356": {
-            "name": "Game::NpcNormalID",
-            "size": 3
-        },
         "3176172728": {
             "name": "_bd508cb8",
             "size": 1
@@ -13394,13 +14131,17 @@
             "name": "Calendar",
             "size": 8
         },
-        "2138424135": {
-            "name": "_7f75c347",
-            "size": 40
-        },
         "286355278": {
             "name": "_11116f4e",
             "size": 8
+        },
+        "2938107850": {
+            "name": "_af1ff7ca",
+            "size": 8
+        },
+        "2138424135": {
+            "name": "_7f75c347",
+            "size": 40
         },
         "1249632718": {
             "name": "_4a7be1ce",
@@ -13434,6 +14175,10 @@
             "name": "_382f646e",
             "size": 8
         },
+        "3899691843": {
+            "name": "V3f",
+            "size": 12
+        },
         "1203377500": {
             "name": "nn::time::ClockSnapshot",
             "size": 208
@@ -13449,10 +14194,6 @@
         "1801517155": {
             "name": "Game::FieldBlockData",
             "size": 144
-        },
-        "3899691843": {
-            "name": "V3f",
-            "size": 12
         },
         "2609444594": {
             "name": "f32",
