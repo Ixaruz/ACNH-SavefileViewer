@@ -261,7 +261,7 @@
                 },
                 {
                     "id": 2883179684,
-                    "name": "CraftingRecipeCollect",
+                    "name": "_abd9d4a4",
                     "type": 1368937620,
                     "size": 5120,
                     "offset": 208932,
@@ -393,7 +393,7 @@
                 },
                 {
                     "id": 2625806669,
-                    "name": "ReceivedAoC",
+                    "name": "_9c82a14d",
                     "type": 742004188,
                     "size": 260,
                     "offset": 219856,
@@ -405,7 +405,7 @@
                 },
                 {
                     "id": 2195916512,
-                    "name": "ReceivedBCAT",
+                    "name": "_82e306e0",
                     "type": 2976068050,
                     "size": 516,
                     "offset": 220116,
@@ -532,7 +532,7 @@
             "fields": [
                 {
                     "id": 760374299,
-                    "name": "NormalNpcBitFlag",
+                    "name": "_2d52641b",
                     "type": 271399315,
                     "size": 4,
                     "offset": 0,
@@ -564,7 +564,7 @@
             ]
         },
         "137935155": {
-            "name": "::Game::SavePostingReserveMilage",
+            "name": "s_0838b933",
             "size": 16,
             "alignment": 4,
             "fields": [
@@ -857,7 +857,7 @@
                 },
                 {
                     "id": 824525828,
-                    "name": "SendMailCountTotal",
+                    "name": "_31254404",
                     "type": 271399315,
                     "size": 4,
                     "offset": 88,
@@ -869,7 +869,7 @@
                 },
                 {
                     "id": 3444743824,
-                    "name": "SendGiftCountTotal",
+                    "name": "_cd529e90",
                     "type": 271399315,
                     "size": 4,
                     "offset": 92,
@@ -905,7 +905,7 @@
                 },
                 {
                     "id": 664937048,
-                    "name": "SendGiftCountToday",
+                    "name": "_27a22258",
                     "type": 1700537250,
                     "size": 1,
                     "offset": 109,
@@ -949,7 +949,7 @@
             ]
         },
         "505857099": {
-            "name": "::Game::SaveItemFreeParam",
+            "name": "s_1e26c44b",
             "size": 4,
             "alignment": 4,
             "fields": [
@@ -1055,7 +1055,7 @@
                 },
                 {
                     "id": 3555052337,
-                    "name": "IndexInHolder",
+                    "name": "_d3e5cb31",
                     "type": 2391922858,
                     "size": 1,
                     "offset": 2225,
@@ -2029,7 +2029,7 @@
             ]
         },
         "1368937620": {
-            "name": "::Game::SaveCraftingRecipeCollect",
+            "name": "s_51985494",
             "size": 5120,
             "alignment": 2,
             "fields": [
@@ -2115,7 +2115,7 @@
             ]
         },
         "1398016897": {
-            "name": "::Game::SaveItemNameWithMyDesign",
+            "name": "s_53540b81",
             "size": 2224,
             "alignment": 8,
             "fields": [
@@ -2183,7 +2183,7 @@
                 },
                 {
                     "id": 13654796,
-                    "name": "HandWritingUsed",
+                    "name": "_00d05b0c",
                     "type": 2412827210,
                     "size": 1,
                     "offset": 9280,
@@ -2372,7 +2372,7 @@
                 },
                 {
                     "id": 1030670883,
-                    "name": "TextUsed",
+                    "name": "_3d6eca23",
                     "type": 2412827210,
                     "size": 1,
                     "offset": 204,
@@ -2456,7 +2456,7 @@
                 },
                 {
                     "id": 3287296698,
-                    "name": "SealList",
+                    "name": "_c3f02aba",
                     "type": 3515869983,
                     "size": 10,
                     "offset": 9078,
@@ -2469,7 +2469,7 @@
             ]
         },
         "1790210370": {
-            "name": "::Game::SavePostingReserveCatalog",
+            "name": "s_6ab47142",
             "size": 744,
             "alignment": 4,
             "fields": [
@@ -2712,7 +2712,7 @@
                 },
                 {
                     "id": 854972334,
-                    "name": "Marinesuit",
+                    "name": "_32f5d7ae",
                     "type": 1106985317,
                     "size": 8,
                     "offset": 4496,
@@ -2786,7 +2786,7 @@
                 },
                 {
                     "id": 1878016300,
-                    "name": "_6ff0412c",
+                    "name": "ProgressSharePlayForceBreakup",
                     "type": 1018827001,
                     "size": 8,
                     "offset": 46400,
@@ -3144,7 +3144,7 @@
                 },
                 {
                     "id": 3199597092,
-                    "name": "FacePaintMyDesignNormal",
+                    "name": "_beb5fa24",
                     "type": 983918924,
                     "size": 680,
                     "offset": 16,
@@ -3388,13 +3388,13 @@
             ]
         },
         "2328926459": {
-            "name": "::Game::SaveSpecialNpcBitFlag",
+            "name": "s_8ad098fb",
             "size": 16,
             "alignment": 4,
             "fields": [
                 {
                     "id": 3712311982,
-                    "name": "SpecialNpcBitFlag",
+                    "name": "_dd4562ae",
                     "type": 271399315,
                     "size": 4,
                     "offset": 0,
@@ -3622,7 +3622,7 @@
             ]
         },
         "2558516823": {
-            "name": "::Game::SavePostingReserveTomorrowNpc",
+            "name": "s_987fde57",
             "size": 692,
             "alignment": 4,
             "fields": [
@@ -3767,7 +3767,7 @@
             ]
         },
         "2933373287": {
-            "name": "::Game::SavePostingReserveTomorrowSystem",
+            "name": "s_aed7b967",
             "size": 692,
             "alignment": 4,
             "fields": [
@@ -3835,7 +3835,7 @@
             "fields": [
                 {
                     "id": 3675874146,
-                    "name": "MainPlayerTotalPlayTime",
+                    "name": "_db196362",
                     "type": 2356714634,
                     "size": 8,
                     "offset": 0,
@@ -4103,7 +4103,7 @@
                 },
                 {
                     "id": 4194997099,
-                    "name": "NounGenderTypePrev",
+                    "name": "_fa0a936b",
                     "type": 1700537250,
                     "size": 1,
                     "offset": 8,
@@ -4116,7 +4116,7 @@
             ]
         },
         "3386574054": {
-            "name": "::Game::SavePostingReserveBase",
+            "name": "s_c9db04e6",
             "size": 688,
             "alignment": 4,
             "fields": [
@@ -4134,7 +4134,7 @@
                 },
                 {
                     "id": 1030670883,
-                    "name": "TextUsed",
+                    "name": "_3d6eca23",
                     "type": 2412827210,
                     "size": 1,
                     "offset": 1,
@@ -4219,7 +4219,7 @@
             ]
         },
         "3399770133": {
-            "name": "::Game::SaveHandWritten",
+            "name": "s_caa46015",
             "size": 30008,
             "alignment": 4,
             "fields": [
@@ -4262,7 +4262,7 @@
             ]
         },
         "3401044406": {
-            "name": "::Game::SavePostingReserveInScene",
+            "name": "s_cab7d1b6",
             "size": 696,
             "alignment": 4,
             "fields": [
@@ -4335,7 +4335,7 @@
             "fields": [
                 {
                     "id": 1853557336,
-                    "name": "JPEG",
+                    "name": "_6e7b0a58",
                     "type": 1198870684,
                     "size": 143368,
                     "offset": 0,
@@ -4708,7 +4708,7 @@
             "fields": [
                 {
                     "id": 1457516832,
-                    "name": "ItemHolderMyVillage",
+                    "name": "_56dff120",
                     "type": 2274724820,
                     "size": 164,
                     "offset": 0,
@@ -4720,7 +4720,7 @@
                 },
                 {
                     "id": 4189528196,
-                    "name": "ItemHolderOtherVillage",
+                    "name": "_f9b72084",
                     "type": 2274724820,
                     "size": 164,
                     "offset": 164,
@@ -5310,7 +5310,7 @@
                 },
                 {
                     "id": 1982875916,
-                    "name": "OfficialMailCountTotal",
+                    "name": "_7630490c",
                     "type": 271399315,
                     "size": 4,
                     "offset": 1624,
@@ -5322,7 +5322,7 @@
                 },
                 {
                     "id": 3788246845,
-                    "name": "OfficialMailCountToday",
+                    "name": "_e1cc0f3d",
                     "type": 1700537250,
                     "size": 1,
                     "offset": 1628,
@@ -5334,7 +5334,7 @@
                 },
                 {
                     "id": 3736372179,
-                    "name": "BgReceiveCount",
+                    "name": "_deb483d3",
                     "type": 1700537250,
                     "size": 1,
                     "offset": 1629,
@@ -5384,7 +5384,7 @@
                 },
                 {
                     "id": 2728762313,
-                    "name": "HgcFashionThemeBit",
+                    "name": "_a2a59bc9",
                     "type": 942629998,
                     "size": 8,
                     "offset": 72,
@@ -5396,7 +5396,7 @@
                 },
                 {
                     "id": 4066703617,
-                    "name": "HgcTodayFashionTheme",
+                    "name": "_f264f901",
                     "type": 2260638386,
                     "size": 4,
                     "offset": 80,
@@ -5420,7 +5420,7 @@
                 },
                 {
                     "id": 2600067952,
-                    "name": "HgcSampleItem",
+                    "name": "_9af9e370",
                     "type": 1106985317,
                     "size": 8,
                     "offset": 92,
@@ -5960,7 +5960,7 @@
                 },
                 {
                     "id": 1926723328,
-                    "name": "StockJPEGArray",
+                    "name": "_72d77700",
                     "type": 1198870684,
                     "size": 143368,
                     "offset": 260,
@@ -6773,7 +6773,7 @@
                 },
                 {
                     "id": 2609537733,
-                    "name": "ReceiverNpcVillagerIndex",
+                    "name": "_9b8a62c5",
                     "type": 2391922858,
                     "size": 1,
                     "offset": 60,
@@ -6840,7 +6840,7 @@
                 },
                 {
                     "id": 2209298102,
-                    "name": "TommorowWeatherPattern",
+                    "name": "TransferReasonLife",
                     "type": 2260638386,
                     "size": 4,
                     "offset": 16,
@@ -7113,7 +7113,7 @@
                 },
                 {
                     "id": 2131197211,
-                    "name": "LastSurpriseDate",
+                    "name": "_7f077d1b",
                     "type": 2154634368,
                     "size": 4,
                     "offset": 1835704,
@@ -7185,7 +7185,7 @@
                 },
                 {
                     "id": 4123449650,
-                    "name": "MoveOutFixedFlag",
+                    "name": "_f5c6d932",
                     "type": 2391922858,
                     "size": 1,
                     "offset": 1928512,
@@ -7197,7 +7197,7 @@
                 },
                 {
                     "id": 1420508405,
-                    "name": "NewestVillagerIndex",
+                    "name": "_54ab3cf5",
                     "type": 2391922858,
                     "size": 1,
                     "offset": 1928513,
@@ -7209,7 +7209,7 @@
                 },
                 {
                     "id": 1607925175,
-                    "name": "MoveStopVillagerIndex",
+                    "name": "_5fd6fdb7",
                     "type": 2391922858,
                     "size": 1,
                     "offset": 1928514,
@@ -7221,7 +7221,7 @@
                 },
                 {
                     "id": 58838981,
-                    "name": "DIYVillagerArray",
+                    "name": "_0381cfc5",
                     "type": 2391922858,
                     "size": 1,
                     "offset": 1928515,
@@ -7288,7 +7288,7 @@
                 },
                 {
                     "id": 3563715882,
-                    "name": "OccurRatio",
+                    "name": "_d469fd2a",
                     "type": 1700537250,
                     "size": 1,
                     "offset": 54,
@@ -7393,7 +7393,7 @@
                 },
                 {
                     "id": 3487215507,
-                    "name": "SummerTimeFlag",
+                    "name": "_cfdaaf93",
                     "type": 2412827210,
                     "size": 1,
                     "offset": 12,
@@ -7831,7 +7831,7 @@
                 },
                 {
                     "id": 3133776734,
-                    "name": "ClothBuyCount",
+                    "name": "_bac9a35e",
                     "type": 1700537250,
                     "size": 1,
                     "offset": 76240,
@@ -7843,7 +7843,7 @@
                 },
                 {
                     "id": 3209350385,
-                    "name": "DIYEndHour",
+                    "name": "_bf4accf1",
                     "type": 2391922858,
                     "size": 1,
                     "offset": 76241,
@@ -7855,7 +7855,7 @@
                 },
                 {
                     "id": 4104280786,
-                    "name": "DIYEndMinute",
+                    "name": "_f4a25ad2",
                     "type": 2391922858,
                     "size": 1,
                     "offset": 76242,
@@ -7867,7 +7867,7 @@
                 },
                 {
                     "id": 3302734014,
-                    "name": "DIYEndSecond",
+                    "name": "_c4dbb8be",
                     "type": 2391922858,
                     "size": 1,
                     "offset": 76243,
@@ -8147,7 +8147,7 @@
                 },
                 {
                     "id": 1149047499,
-                    "name": "FreeData",
+                    "name": "_447d12cb",
                     "type": 1258445657,
                     "size": 2,
                     "offset": 8,
@@ -8401,13 +8401,13 @@
             ]
         },
         "1197350346": {
-            "name": "::Game::SaveWordNickName",
+            "name": "::Game::SaveFlagsAchievementQuest",
             "size": 20,
             "alignment": 2,
             "fields": [
                 {
                     "id": 3617444083,
-                    "name": "NickName",
+                    "name": "_d79dd0f3",
                     "type": 1064805788,
                     "size": 20,
                     "offset": 0,
@@ -8518,7 +8518,7 @@
             ]
         },
         "1467779857": {
-            "name": "::Game::SaveObjectSnowManFamily",
+            "name": "s_577c8b11",
             "size": 440,
             "alignment": 4,
             "fields": [
@@ -8921,7 +8921,7 @@
                 },
                 {
                     "id": 882313096,
-                    "name": "ExhibitAccounts",
+                    "name": "_34970788",
                     "type": 2838106675,
                     "size": 16,
                     "offset": 163208,
@@ -9957,7 +9957,7 @@
                 },
                 {
                     "id": 3617444083,
-                    "name": "NickName",
+                    "name": "_d79dd0f3",
                     "type": 1197350346,
                     "size": 20,
                     "offset": 312,
@@ -9993,7 +9993,7 @@
                 },
                 {
                     "id": 1424496824,
-                    "name": "MailReceiveInfoStock",
+                    "name": "_54e818b8",
                     "type": 1710104156,
                     "size": 16,
                     "offset": 1392,
@@ -10089,7 +10089,7 @@
                 },
                 {
                     "id": 1619040009,
-                    "name": "HandleNameUpdateDate",
+                    "name": "_60809709",
                     "type": 2154634368,
                     "size": 4,
                     "offset": 1514,
@@ -10279,7 +10279,7 @@
             ]
         },
         "2573644751": {
-            "name": "::Game::SaveWordTasteName",
+            "name": "s_9966b3cf",
             "size": 96,
             "alignment": 2,
             "fields": [
@@ -10328,7 +10328,7 @@
                 },
                 {
                     "id": 3275397598,
-                    "name": "BuildCelebrationHHA",
+                    "name": "_c33a99de",
                     "type": 1424838350,
                     "size": 4,
                     "offset": 564,
@@ -10705,7 +10705,7 @@
                 },
                 {
                     "id": 687404634,
-                    "name": "CureDate",
+                    "name": "_28f8f65a",
                     "type": 2154634368,
                     "size": 4,
                     "offset": 52,
@@ -10729,7 +10729,7 @@
                 },
                 {
                     "id": 3563715882,
-                    "name": "OccurRatio",
+                    "name": "_d469fd2a",
                     "type": 1700537250,
                     "size": 1,
                     "offset": 58,
@@ -11266,7 +11266,7 @@
                 },
                 {
                     "id": 596703728,
-                    "name": "ReturnsLoan",
+                    "name": "_2390f9f0",
                     "type": 3626256309,
                     "size": 8,
                     "offset": 24,
@@ -11604,7 +11604,7 @@
                 },
                 {
                     "id": 1619040009,
-                    "name": "HandleNameUpdateDate",
+                    "name": "_60809709",
                     "type": 2154634368,
                     "size": 4,
                     "offset": 326,
@@ -11685,7 +11685,7 @@
                 },
                 {
                     "id": 1642475996,
-                    "name": "CreateBocPos",
+                    "name": "_61e631dc",
                     "type": 3899691843,
                     "size": 12,
                     "offset": 40,
@@ -11991,7 +11991,7 @@
                 },
                 {
                     "id": 1480204193,
-                    "name": "ValidMaxIndex",
+                    "name": "_583a1fa1",
                     "type": 1700537250,
                     "size": 1,
                     "offset": 9,
@@ -12151,7 +12151,7 @@
                 },
                 {
                     "id": 3901718685,
-                    "name": "TreeMoneyInfoList",
+                    "name": "_e88f809d",
                     "type": 271399315,
                     "size": 4,
                     "offset": 2308,
@@ -12466,7 +12466,7 @@
             "fields": [
                 {
                     "id": 1321516000,
-                    "name": "MyDesignListOrderNormals",
+                    "name": "_4ec4bbe0",
                     "type": 2391922858,
                     "size": 1,
                     "offset": 0,
@@ -12478,7 +12478,7 @@
                 },
                 {
                     "id": 3273089764,
-                    "name": "MyDesignListOrderPros",
+                    "name": "_c31762e4",
                     "type": 2391922858,
                     "size": 1,
                     "offset": 50,
@@ -12706,7 +12706,7 @@
             "size": 8
         },
         "2042286748": {
-            "name": "Game::CharaMakeSetting",
+            "name": "_79bad29c",
             "size": 12
         },
         "1153857660": {
@@ -12758,7 +12758,7 @@
             "size": 1876
         },
         "1245668131": {
-            "name": "Game::ClockTimeBuffers",
+            "name": "_4a3f6323",
             "size": 24
         },
         "3770044025": {
@@ -12834,7 +12834,7 @@
             "size": 4
         },
         "1801517155": {
-            "name": "Game::FieldBlockData",
+            "name": "_6b60f863",
             "size": 144
         },
         "3769308874": {
