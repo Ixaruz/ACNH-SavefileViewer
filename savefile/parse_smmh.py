@@ -99,7 +99,7 @@ class SaveDefinition:
         self.types = {}
 
         struct_types = set([e[KEY_TYPE_ID] for e in yaml])
-        struct_names = {k: TYPE_KEYS[k] or ('s_%08x' % k) for k in struct_types}
+        struct_names = {k: TYPE_KEYS.get(k, None) or ('s_%08x' % k) for k in struct_types}
 
         for entry in yaml:
             type_id = entry[KEY_TYPE_ID]
@@ -110,7 +110,7 @@ class SaveDefinition:
                 field_id = field[KEY_FIELD_ID]
                 type_obj.fields.append(SaveField(
                     field_type_id, struct_names.get(field_type_id, TYPE_KEYS[field_type_id] or ('_%08x' % field_type_id)),
-                    field_id, FIELD_KEYS[field_id] or ('_%08x' % field_id),
+                    field_id, FIELD_KEYS.get(field_id, None) or ('_%08x' % field_id),
                     field[KEY_SIZE], field[KEY_OFFSET], field[KEY_LENGTH_1],
                     field.get(KEY_LENGTH_2, 1), field[KEY_ALIGNMENT]))
             type_obj.fields.sort(key=lambda f: f.offset)
@@ -140,8 +140,8 @@ with open('fieldHashes', 'w') as f:
         if h not in FIELD_KEYS or FIELD_KEYS[h] == None:
             f.write(f'{h:08x}:00000000\n')
             FIELD_KEYS[h] = None
-#with open('all_save_field_keys.json', 'w') as f:
-#    json.dump({'t': list(type_hashes), 'f': list(field_hashes)}, f)
+with open('all_save_field_keys.json', 'w') as f:
+   json.dump({'t': list(type_hashes), 'f': list(field_hashes)}, f)
 with open('save_keys.json', 'w') as f:
     obj = {
         't': {('%08x' % k): v for k,v in TYPE_KEYS.items()},
@@ -206,3 +206,4 @@ if __name__ == '__main__':
     dump(sys.argv[1], '512004_512001')
     dump(sys.argv[1], '516097_516097')
     dump(sys.argv[1], '524421_524297')
+    dump(sys.argv[1], '655400_655362')
