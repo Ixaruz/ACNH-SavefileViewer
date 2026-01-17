@@ -2,10 +2,15 @@ import json
 import mmh3
 import re
 
-with open('all_save_field_keys.json', 'r') as f:
-    data = json.load(f)
-typekeys = {k: [] for k in data['t']}
-fieldkeys = {k: [] for k in data['f']}
+# with open('all_save_field_keys.json', 'r') as f:
+#     data = json.load(f)
+# typekeys = {k: [] for k in data['t']}
+# fieldkeys = {k: [] for k in data['f']}
+
+with open('typeHashes') as f:
+    typekeys = {int(line.split(":")[0].strip(),16): [] for line in f}
+with open('fieldHashes') as f:
+    fieldkeys = {int(line.split(":")[0].strip(),16): [] for line in f}
 
 basetypes = [s.encode('ascii') for s in (
     'u8', 'u16', 'u32', 'u64',
@@ -69,12 +74,12 @@ def strategy(pool):
     print('POOL SIZE', len(pool))
     maybe = set()
     for name in pool:
-        if attempt(name):
+        if attemptstr(name):
             maybe.add(name)
     print('STAGE 1 DONE')
     for nameA in pool:
         for nameB in pool:
-            if attempt(nameA + nameB):
+            if attemptstr(nameA + nameB):
                 maybe.add(nameA)
                 maybe.add(nameB)
     print('STAGE 2 DONE')
@@ -82,7 +87,7 @@ def strategy(pool):
     for a in maybe:
         for b in maybe:
             for c in maybe:
-                attempt(a+b+c)
+                attemptstr(a+b+c)
 
 def allEnglishWords():
     def word_ok(word):
@@ -182,6 +187,7 @@ pool = set()
 noLetter = re.compile('[^A-Za-z]')
 looksLikeConstant = re.compile('^c[A-Z]')
 hkName = re.compile('^hk[A-Z]')
+short = re.compile('^[A-Za-z]{1,3}$')
 
 def looksBad(s):
     for c in s:
@@ -198,7 +204,7 @@ def addCS(pool, s):
             group = bits[i:i+groupSize]
             pool.add(''.join(group))
 
-for line in open('../../strs120filter'):
+for line in open("allstr", 'r'):
     if line.startswith('__'): continue
     if line.startswith('_Z'): continue
     if line.startswith('N2nn'): continue
@@ -206,6 +212,13 @@ for line in open('../../strs120filter'):
     if line.startswith('eyJ'): continue
     if hkName.match(line): continue
     if looksBad(line): continue
+    if line.endswith("Assert"): continue
+    if "GGeConv" in line: continue
+    if "NpcBBo" in line: continue
+    if line.startswith("BBo"): continue
+    if line.startswith("CommandBuffer"): continue
+    if line.startswith("TopTshirts"): continue
+    if short.match(line): continue
     for bit in noLetter.split(line):
         if re.match(looksLikeConstant, bit):
             bit = bit[1:]
@@ -235,11 +248,13 @@ with open('wordlist2.txt', 'w') as f:
         f.write(p)
         f.write('\n')
 
-import sys
-sys.exit()
+# import sys
+# sys.exit()
 
-strategy(buildWordgramPool())
-strategy(buildStringPool())
+strategy(pool)
+
+# strategy(buildWordgramPool())
+#strategy(buildStringPool())
 #strategy(allEnglishWords())
 #cxxFiltStrategy()
 #guessTypesStrategy()

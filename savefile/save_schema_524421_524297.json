@@ -4246,7 +4246,7 @@
                 },
                 {
                     "id": 2416377164,
-                    "name": "_9006fd4c",
+                    "name": "UnlockModeAfterMuseumBuilt",
                     "type": 3500625526,
                     "size": 4,
                     "offset": 12,
@@ -13974,7 +13974,7 @@
             ]
         },
         "1352843622": {
-            "name": "s_50a2c166",
+            "name": "::Game::SavePlayerMemoriesIsland",
             "size": 164720,
             "alignment": 8,
             "fields": [

@@ -4514,7 +4514,7 @@
                 },
                 {
                     "id": 2416377164,
-                    "name": "_9006fd4c",
+                    "name": "UnlockModeAfterMuseumBuilt",
                     "type": 3500625526,
                     "size": 4,
                     "offset": 12,
@@ -5549,7 +5549,7 @@
                 },
                 {
                     "id": 1248501419,
-                    "name": "_4a6a9eab",
+                    "name": "RentalCoordinate",
                     "type": 2378751884,
                     "size": 4496,
                     "offset": 44944,
@@ -11525,7 +11525,7 @@
                 },
                 {
                     "id": 1346992081,
-                    "name": "_504977d1",
+                    "name": "HotelOther",
                     "type": 408294786,
                     "size": 420,
                     "offset": 4181904,
@@ -11538,7 +11538,7 @@
             ]
         },
         "76622205": {
-            "name": "s_0491297d",
+            "name": "::Game::SaveHotelNpc",
             "size": 5,
             "alignment": 1,
             "fields": [
@@ -12375,7 +12375,7 @@
             ]
         },
         "479159941": {
-            "name": "s_1c8f6685",
+            "name": "::Game::SaveHotelVisitorNpc",
             "size": 5688,
             "alignment": 4,
             "fields": [
@@ -13251,7 +13251,7 @@
             ]
         },
         "1017277590": {
-            "name": "s_3ca26c96",
+            "name": "::Game::SaveHotelVisitors",
             "size": 96740,
             "alignment": 4,
             "fields": [
@@ -14247,13 +14247,13 @@
             ]
         },
         "1128417194": {
-            "name": "s_434247aa",
+            "name": "::Game::SaveHotel",
             "size": 238408,
             "alignment": 8,
             "fields": [
                 {
                     "id": 1234858547,
-                    "name": "_499a7233",
+                    "name": "NormalRoomList",
                     "type": 3041477114,
                     "size": 5516,
                     "offset": 0,
@@ -14265,7 +14265,7 @@
                 },
                 {
                     "id": 82770123,
-                    "name": "_04eef8cb",
+                    "name": "VipRoomList",
                     "type": 3041477114,
                     "size": 5516,
                     "offset": 44128,
@@ -14277,7 +14277,7 @@
                 },
                 {
                     "id": 3536414466,
-                    "name": "_d2c96702",
+                    "name": "WorkDataList",
                     "type": 1849102954,
                     "size": 5524,
                     "offset": 88256,
@@ -14289,7 +14289,7 @@
                 },
                 {
                     "id": 922307191,
-                    "name": "_36f94a77",
+                    "name": "VisitorsData",
                     "type": 1017277590,
                     "size": 96740,
                     "offset": 132448,
@@ -14313,7 +14313,7 @@
                 },
                 {
                     "id": 961692800,
-                    "name": "_39524480",
+                    "name": "UnlockVipOrder",
                     "type": 193356030,
                     "size": 28,
                     "offset": 238184,
@@ -14560,7 +14560,7 @@
             ]
         },
         "1352843622": {
-            "name": "s_50a2c166",
+            "name": "::Game::SavePlayerMemoriesIsland",
             "size": 164720,
             "alignment": 8,
             "fields": [
@@ -15167,13 +15167,13 @@
             ]
         },
         "1849102954": {
-            "name": "s_6e37126a",
+            "name": "::Game::SaveHotelWorkData",
             "size": 5524,
             "alignment": 4,
             "fields": [
                 {
                     "id": 1086559639,
-                    "name": "_40c39597",
+                    "name": "HotelRoom",
                     "type": 3041477114,
                     "size": 5516,
                     "offset": 0,
@@ -15818,7 +15818,7 @@
                 },
                 {
                     "id": 189460090,
-                    "name": "_0b4aee7a",
+                    "name": "Hotel",
                     "type": 1128417194,
                     "size": 238408,
                     "offset": 5736040,
@@ -17445,7 +17445,7 @@
                 },
                 {
                     "id": 2520402671,
-                    "name": "_963a4aef",
+                    "name": "ShopHotel",
                     "type": 1989960113,
                     "size": 184,
                     "offset": 14136,
@@ -17551,7 +17551,7 @@
             ]
         },
         "3041477114": {
-            "name": "s_b54941fa",
+            "name": "::Game::SaveHotelRoom",
             "size": 5516,
             "alignment": 4,
             "fields": [
@@ -17569,7 +17569,7 @@
                 },
                 {
                     "id": 1288678430,
-                    "name": "_4ccfac1e",
+                    "name": "ThemeId",
                     "type": 1258445657,
                     "size": 2,
                     "offset": 2,
@@ -17581,7 +17581,7 @@
                 },
                 {
                     "id": 857912288,
-                    "name": "_3322b3e0",
+                    "name": "EditRoom",
                     "type": 225080001,
                     "size": 5468,
                     "offset": 4,
@@ -17593,7 +17593,7 @@
                 },
                 {
                     "id": 148496604,
-                    "name": "_08d9e0dc",
+                    "name": "HotelNpc",
                     "type": 76622205,
                     "size": 5,
                     "offset": 5472,
@@ -17605,7 +17605,7 @@
                 },
                 {
                     "id": 2924931519,
-                    "name": "_ae56e9bf",
+                    "name": "EditPlayerId",
                     "type": 193356030,
                     "size": 28,
                     "offset": 5480,
@@ -18230,7 +18230,7 @@
             ]
         },
         "3546433428": {
-            "name": "s_d3624794",
+            "name": "::Game::SaveHotelNpcMemory",
             "size": 1,
             "alignment": 1,
             "fields": [

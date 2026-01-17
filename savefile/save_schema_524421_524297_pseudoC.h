@@ -482,7 +482,7 @@ struct GSaveWherearenPlayerSettings {               /* 0x1c big, align 4 */
   u8 gap_3[1];
   s32                                _04e35df0;                                 // @0x4 size 0x4, align 4
   s32                                _ab0ca156;                                 // @0x8 size 0x4, align 4
-  s_d0a74e76                         _9006fd4c[3];                              // @0xc size 0x4, align 4
+  s_d0a74e76                         UnlockModeAfterMuseumBuilt[3];             // @0xc size 0x4, align 4
   _44c6787c                          DailyFlags;                                // @0x18 size 0x1, align 1
 };
 struct s_604fabb8 {                                 /* 0x20 big, align 4 */
@@ -1294,7 +1294,7 @@ struct GSaveLandOther {                             /* 0x3aa690 big, align 16 */
   GSaveMoney                         _eca3db46;                                 // @0x3778e8 size 0x8, align 4
   GSaveMoney                         _70d063c1;                                 // @0x3778f0 size 0x8, align 4
   s_41bfb370                         _9ebfe1c5[10];                             // @0x3778f8 size 0x1104, align 4
-  s_50a2c166                         Memories;                                  // @0x382320 size 0x28370, align 8
+  GSavePlayerMemoriesIsland          Memories;                                  // @0x382320 size 0x28370, align 8
 };
 struct GSaveShopOther {                             /* 0xc big, align 4 */
   u32                                PlayerTotalBuy;                            // @0x0 size 0x4, align 4
@@ -1600,7 +1600,7 @@ struct GSaveWordNickName {                          /* 0x14 big, align 2 */
 struct GSaveShopShoesCommune {                      /* 0x100 big, align 4 */
   GSaveItemName                      ShopItem[32];                              // @0x0 size 0x8, align 4
 };
-struct s_50a2c166 {                                 /* 0x28370 big, align 8 */
+struct GSavePlayerMemoriesIsland {                  /* 0x28370 big, align 8 */
   s_84bd36f4                         Memories[10];                              // @0x0 size 0x4058, align 8
 };
 struct GSaveNpcStockItemData {                      /* 0x2c big, align 4 */
